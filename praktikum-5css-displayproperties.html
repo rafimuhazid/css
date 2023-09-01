@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /*display: block*/
+        .block-element {
+            display: block;
+            background-color: blueviolet;
+            width: 200px;
+            height: 100px;
+        }
+
+        /*display inline*/
+        .inline-element {
+            display: inline;
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        /*display inline-block*/
+        .inline-block-element {
+            display: inline-block;
+            background-color: blanchedalmond;
+            width: 150px;
+            height: 150px;
+        }
+
+        /*display : flex */
+        .flex-container {
+            display: flex;
+            background-color: gold;
+        }
+
+        /*display : grid */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            background-color: rgb(255, 0, 179);
+        }
+    </style>
+</head>
+<body>
+    <div class="block-element">block element</div>
+
+    <span class="inline-element">inline element</span>
+
+    <div class="inline-block-element">inline block element</div>
+
+    <div class="flex-container">
+        <div>Flex item 1</div>
+        <div>Flex item 2</div>
+        <div>Flex item 3</div>
+    </div>
+
+    <div class="grid-container">
+        <div>grid item 1</div>
+        <div>grid item 2</div>
+        <div>grid item 3</div>
+        <div>grid item 4</div>
+    </div>
+</body>
+</html>
